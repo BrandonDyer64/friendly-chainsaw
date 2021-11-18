@@ -1,0 +1,24 @@
+body {
+  background-color: #222;
+  color: white;
+}
+
+.card-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 100px;
+}
+
+.card {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #55f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
